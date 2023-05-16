@@ -32,7 +32,7 @@ let a, b, c; a=b=c=0;
 c--;
 document.write("the value of a is :", a + "<br/>");
 document.write("the value of a is :", b + "<br/>");
-document.write("the value of a is :", c + "<br/>");
+document.write("the value of a is :", c + "<br/><br/>");
 
 // data types
 let str = "Hello There";
@@ -53,3 +53,27 @@ console.log(selectedColors);
 console.log(selectedColors[0]);
 selectedColors[2] = 1;
 console.log(selectedColors.length);
+
+// day 2 lms exercises
+let myName = 'Taahirah';
+let mySurname = 'Ismail';
+document.write(myName + mySurname);
+let numberVar = 5;
+// output is 25
+const myName2 = 'Taahirah';
+// syntax error - says the identifier has already been declared 
+
+// day 3 lms exercises
+var str3 = 'a string ig';
+// typeof - string
+var str3 = 2;
+// typeof - number
+let vstring = 'string';
+let vnumber = 1;
+let vboolean = true;
+let vundefined = undefined;
+let vnull = null;
+let vsymbol = Symbol('not sure mate');
+let vobj = {name: 'an object', num: 12};
+let varray = ['obj1', 'obj2'];
+let vfunc = function myFunction3() {prompt('girl what')};
