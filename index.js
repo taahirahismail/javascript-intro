@@ -64,9 +64,11 @@ const myName2 = 'Taahirah';
 // syntax error - says the identifier has already been declared 
 
 // day 3 lms exercises
-var str3 = 'a string ig';
+let str3 = 'a string ig';
+console.log(typeof str3)
 // typeof - string
-var str3 = 2;
+str3 = 2;
+console.log(typeof str3)
 // typeof - number
 let vstring = 'string';
 let vnumber = 1;
@@ -77,3 +79,28 @@ let vsymbol = Symbol('not sure mate');
 let vobj = {name: 'an object', num: 12};
 let varray = ['obj1', 'obj2'];
 let vfunc = function myFunction3() {prompt('girl what')};
+
+console.log(typeof vstring);
+console.log(typeof vnumber);
+console.log(typeof vboolean);
+console.log(typeof vundefined);
+console.log(typeof vnull);
+console.log(typeof vsymbol);
+console.log(typeof vobj);
+console.log(typeof varray);
+console.log(typeof vfunc);
+
+// day 4 lms exercise
+let persons1 = {
+    name: 'John',
+    age: 30
+};
+let persons2 = {
+    name: 'Mark',
+    age: 24
+};
+console.log(persons1);
+console.log(persons2);
+
+const people = [persons1, persons2];
+console.log(people);
